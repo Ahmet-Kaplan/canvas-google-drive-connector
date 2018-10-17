@@ -15,9 +15,9 @@ gem 'rake', '~> 12.3'
 gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'require_all', '~> 1.5'
 gem 'sass', '~> 3.5', '>= 3.5.5'
-gem 'sinatra', '~> 2.0.1'
+gem 'sinatra', '~> 2.0.2'
 gem 'sinatra-activerecord', '~> 2.0', '>= 2.0.13'
-gem 'sinatra-asset-pipeline', '~> 2.0', require: 'sinatra/asset_pipeline'
+gem 'sinatra-asset-pipeline', '~> 2.0.0', require: 'sinatra/asset_pipeline'
 gem 'sinatra-contrib', '~> 2.0.1', require: false
 gem 'uglifier', '~> 4.1', '>= 4.1.6'
 gem 'pry'
@@ -30,7 +30,7 @@ end
 
 group :test do
   gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
-  gem 'nokogiri', '~> 1.8', '>= 1.8.2'
+  gem 'nokogiri', '~> 1.8', '>= 1.8.5'
   gem 'rack-test', '~> 0.8.2'
   gem 'rspec', '~> 3.7'
   gem 'simplecov', '~> 0.15.1'
